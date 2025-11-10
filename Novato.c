@@ -10,7 +10,7 @@ typedef struct Sala {
     struct Sala *direita;
 } Sala;
 
-// Cria dinamicamente uma sala com o nome informado
+// Cria dinamicamente uma sala 
 Sala* criarSala(const char* nome) {
     Sala* novaSala = (Sala*) malloc(sizeof(Sala));
     if (novaSala == NULL) {
